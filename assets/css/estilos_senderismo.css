@@ -1,0 +1,40 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.color_nav, .footer{
+    background-color: black;
+}
+
+.header-bg{
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;  
+    opacity: 0.5;
+    height: 315px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.texto{
+    position: relative;
+    height: 315px;
+}
+
+.header h1{
+    font-size:60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p, li{
+    text-align: justify;
+}    
+
+
+/*Enlaces y pseudoclases*/
+.foto a img:hover{
+    transform: scale(1.1); /*Al pasar el ratón cambia el tamaño de la imagen a más grande*/
+}
